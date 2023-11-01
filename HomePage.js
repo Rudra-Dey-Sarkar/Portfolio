@@ -17,3 +17,7 @@ document.querySelector("#container").addEventListener("click", function () {
 document.querySelector(".cv").addEventListener("click", function () {
   window.open("Resume Will Soon Be Uploaded.pdf");
 })
+
+document.querySelector(".portfolio").addEventListener("click", function () {
+  alert("The Page is Under Development!");
+})
