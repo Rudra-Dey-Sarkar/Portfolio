@@ -15,5 +15,5 @@ document.querySelector("#container").addEventListener("click", function () {
 })
 
 document.querySelector(".cv").addEventListener("click", function () {
-  window.open("Rudra Dey Sarkar Resume.pdf");
+  window.open("Resume Will Soon Be Uploaded.pdf");
 })
