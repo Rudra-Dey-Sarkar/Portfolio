@@ -41,9 +41,8 @@
     }
 
     .navbar a {
-        position: relative;
-        top: 7px;
-        z-index: 1;
+        margin-top: auto;
+        margin-bottom: auto;
         text-align: center;
     }
 
