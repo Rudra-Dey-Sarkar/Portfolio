@@ -21,3 +21,4 @@ document.querySelector(".cv").addEventListener("click", function () {
 document.querySelector(".portfolio").addEventListener("click", function () {
   alert("The Page is Under Development!");
 })
+
