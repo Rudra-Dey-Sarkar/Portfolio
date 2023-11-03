@@ -7,6 +7,7 @@
 }
 
 body{
+    overflow: auto;
     background-color: #081b29;
     display:inline;
     font-family: 'Open Sans', sans-serif;   
@@ -20,7 +21,7 @@ body{
     width: 100%;
     height: 5vh;
     backdrop-filter: blur(4px);
-    background-color: transparent;
+    background-color: transparent ;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -93,7 +94,6 @@ body{
     display: flex;
     color:white;
     overflow: auto;
-    margin-top: 4vw;
 }
 #sec1 div{
     margin-top: 24vh;
@@ -147,18 +147,26 @@ h1,h2{
 /* Section 2 */
 #sec2{
 color: white;
-margin-top: 24vh;
-margin-bottom: 24vh;
+
 }
 
 .info{
-    margin-left: 4vw;
+    display: flex;
+    padding-left: 4%;
+    margin-top: 25%;
+}
+.info .p2{
+    margin-top: 20%;
 }
 
-/* Section 3 */
-#sec3{
-    margin-bottom: 24vh;
+.info img{
+    width: 60vw;
+    height: auto;
 }
+
+
+/* Section 3 */
+
 .social-media{
     text-align: center;
     margin: 2%;
@@ -178,10 +186,17 @@ margin-bottom: 24vh;
     background-color: #0ef;
     color: #081b29;
 }
-.hd1,.hd2{
+.hd1{
     text-align: center;
     color:white;
+    padding-top: 9%;
 }
+
+#sec1,#sec2,#sec3{
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
 footer{
     font-weight: bold;
     padding: 20px;
@@ -190,4 +205,6 @@ footer{
     text-align: center;
     width: auto;
 }
+
+
 
