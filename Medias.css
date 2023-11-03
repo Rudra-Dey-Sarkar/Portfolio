@@ -14,7 +14,16 @@
         margin-top: 2vh;
         margin-bottom: 2vh;
     }
-
+   .info{
+        display: inline;
+    }
+    .info .p2{
+        margin-left: 4vw;
+    }
+   .info img {
+        width: 100%;
+        height: auto;
+    }
 }
 
 @media(max-width:700px) {
@@ -36,7 +45,6 @@
         right: -25vw;
         top: 20vh;
         border: 2px solid #0ef;
-        backdrop-filter: blur(4px);
         background-color: #081b29;
     }
 
@@ -53,4 +61,6 @@
     }
 
 }
+
+
 
