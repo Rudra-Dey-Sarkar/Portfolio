@@ -107,6 +107,17 @@ h1,h2,p{
 .p1,.p2{
     font-size: 1.02rem;
 }
+
+
+
+.p1{
+    transition: .3s;
+    opacity: 0;
+    animation: slideRight 2s ease forwards;
+}
+
+
+
 h1,h2{
     font-weight: bold;
 }
@@ -163,7 +174,11 @@ color: white;
     width: 60vw;
     height: auto;
 }
-
+.info .p2{
+    transition: .3s;
+    opacity: 0;
+    animation: slideRight 2s ease forwards;
+}
 
 /* Section 3 */
 
@@ -207,4 +222,16 @@ footer{
 }
 
 
+/*keyframe*/
 
+@keyframes slideRight{
+    0%{
+        transform: rotateX(-100px);
+        opacity: 0;
+    }
+
+    100%{
+        transform: rotateX(0);
+        opacity: 1;
+    }
+}
