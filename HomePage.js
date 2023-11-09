@@ -1,3 +1,4 @@
+console.log("website is under Development!");
 //Auto Type Function
 var typed = new Typed(".auto-type", {
   strings: [" a Programmer", "a Web Developer", "Athelete", "a Gamer"],
