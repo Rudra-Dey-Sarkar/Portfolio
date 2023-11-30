@@ -6,6 +6,7 @@ var typed = new Typed(".auto-type", {
   loop: true
 })
 
+
 //Hamburger function
 function myFunction(x) {
   x.classList.toggle("change");
