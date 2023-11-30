@@ -206,6 +206,10 @@ color: white;
     color:white;
     padding-top: 9%;
 }
+#sec3 p{
+    text-align: center;
+    color:white;
+}
 
 #sec1,#sec2,#sec3{
     min-width: 100vw;
