@@ -1,6 +1,6 @@
 //Auto Type Function
 var typed = new Typed(".auto-type", {
-  strings: [" a Programmer", "a Web Developer", "a Athelete", "a Gamer"],
+  strings: [" a Programmer", "a Web Developer", " Athelete", "a Gamer"],
   typeSpeed: 150,
   backSpeed: 150,
   loop: true
