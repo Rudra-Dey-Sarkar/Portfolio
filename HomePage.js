@@ -1,4 +1,3 @@
-console.log("website is under Development!");
 //Auto Type Function
 var typed = new Typed(".auto-type", {
   strings: [" a Programmer", "a Web Developer", "Athelete", "a Gamer"],
@@ -21,7 +20,7 @@ document.querySelector(".cv").addEventListener("click", function () {
 })
 //Portfolio button to goto portfolio page
 document.querySelector(".portfolio").addEventListener("click", function () {
-  alert("The Page is Under Development!");
+window.open("project.html");
 })
 
 
