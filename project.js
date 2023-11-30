@@ -8,6 +8,7 @@ document.getElementById("container").addEventListener("click", function () {
   document.querySelector(".navbar").classList.toggle("navbartoggle");
 })
 
+
 document.querySelector(".homepagepic").addEventListener("click",function(){
   window.open("index.html");
 })
